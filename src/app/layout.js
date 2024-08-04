@@ -1,5 +1,4 @@
-import { Inter } from "next/font/google";
-import "./globals.css";
+import useSWR from 'swr'
 import { Container } from '@mui/material'
 const inter = Inter({ subsets: ["latin"] });
 
